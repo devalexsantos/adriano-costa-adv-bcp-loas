@@ -16,6 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
+      <link rel="icon" href="/assets/adriano-costa-icon.svg" sizes="any" />
       <body className={inter.className}>{children}</body>
     </html>
   )
